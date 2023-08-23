@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url("./img/mouse.png"), pointer;
+}
+
+.all{
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background:black;
+}
+
+.llr{
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0);
+}
