@@ -160,7 +160,7 @@ const update = () => {
     img.crossOrigin = "anonymous";
     nowImg = (nowImg + 1) % imgList.length;
     img.onload = function () {
-        console.log(img.width, img.height);
+        // console.log(img.width, img.height);
         //画图像
         clear();
         ctx.drawImage(img, canvas.width / 2 - img.width / 2, canvas.height / 2 - img.height / 2, img.width, img.height);
