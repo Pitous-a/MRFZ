@@ -31,10 +31,8 @@ let mouseY = null;
 let timer = null;
 document.addEventListener("mousemove", function (e) {
     setTimeout(function () {
-        initCanvasSize();
         mouseX = e.clientX;
         mouseY = e.clientY;
-        // requestAnimationFrame(circle);
     }, 100);
 });
 
