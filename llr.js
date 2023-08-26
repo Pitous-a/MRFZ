@@ -31,6 +31,7 @@ let mouseY = null;
 let timer = null;
 document.addEventListener("mousemove", function (e) {
     setTimeout(function () {
+        console.log(e.clientX, e.clientY);
         mouseX = e.clientX;
         mouseY = e.clientY;
     }, 100);
